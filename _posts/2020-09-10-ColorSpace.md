@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 颜色空间
-date: 2020-9-08
+date: 2020-9-10
 categories: blog
 tags: [Image Processing]
 description: 介绍常用的颜色空间。
@@ -37,7 +37,7 @@ $$
 $$
 r^{-1}_{u} =\left\{\begin{aligned}u/12.92 && u≤0.04045\\(\frac{u+0.055}{1.055})^{2.4}-0.055 && otherwise \end{aligned}\right.
 $$
-  
+
 $$
 \left[\begin{matrix} X\\Y\\Z \end{matrix}\right] = \left[\begin{matrix}0.41239080 & 0.35758434 & 0.18048079\\0.21263901&0.71516868&0.07219232\\0.01933082&0.11919478&0.95053215\end{matrix}\right]\left[\begin{matrix}R_{linear}\\G_{linear}\\B_{linear}\end{matrix}\right]
 $$
