@@ -43,9 +43,6 @@ XYZ颜色空间中包含所有的色觉信息，因此，XYZ表示的颜色具�
 $$
 \left[\begin{matrix} R_{linear}\\G_{linear}\\B_{linear} \end{matrix}\right] = \left[\begin{matrix} 3.24096994 & -1.53738318 & -0.49861076 \\-0.96924364 & 1.8759675 & 0.04155506\\0.05563008 & -0.20397696 & 1.05697151\end{matrix}\right]\left[\begin{matrix}X\\Y\\Z\end{matrix}\right]
 $$
-​	
-
-​	RGB线性空间转成sRGB非线性空间：
 $$
 r_u =\left\{\begin{aligned} 12.92u && u≤0.0031308\\1.055u^{1/2.4}-0.055 && otherwise \end{aligned}\right.
 $$
