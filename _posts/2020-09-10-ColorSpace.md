@@ -7,6 +7,20 @@ tags: [Image Processing]
 description: 介绍常用的颜色空间。
 ---
 
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
+
+
 ## 颜色空间
 
 ​	本文章按照自己的理解记录一下常用的颜色空间，若有不正确的地方，欢迎指出。定义颜色空间通常的参考标准为CIELAB或者CIEXYZ
@@ -47,7 +61,7 @@ $$
 
 HSV 空间：H表示色调（0~360度），S为饱和度（0~100%），V为明度（0~1）
 
-## 
+
 
 
 
